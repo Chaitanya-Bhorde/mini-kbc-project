@@ -1,0 +1,126 @@
+ /* Apply styles properly */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(123, 123, 180);
+    background-color: cornsilk;
+    margin: 20px auto; 
+    width: 80%;  
+    max-width: 600px;  
+    padding: 10px;
+    border-radius: 25px;
+    border: solid green;
+}
+ /* .que1{
+     
+    height:100px;
+    width:70px;
+    margin:45px;
+    padding:45px;
+ } 
+    */
+
+
+  .QUIZ {
+    display:flex;
+    flex-direction:column;
+     
+    
+
+    }
+  .options1{
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    /* justify-content: center; */
+    justify-content:space-evenly;
+    gap:5px;
+    
+  }
+.first{
+    border: solid 2px pink;
+    height: 60px;
+    max-width: 90%;
+    width: 300px;
+    margin: 10px auto;
+    padding:30px;
+    margin-top:10px;
+    background-color: bisque;
+     }
+  .second{
+    border:solid 2px pink;
+    height: 60px;
+    max-width: 90%;
+    width: 300px;
+    margin: 10px auto;
+    padding:30px;
+    margin-top:20px;
+    background-color: bisque;
+ }
+ .options2{
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-content: center;
+    justify-content:space-evenly;
+    gap:5px;
+ } 
+
+ .third{
+  border:solid 2px pink;
+  height: 60px;
+  max-width: 90%;
+  width: 300px;
+  margin: 10px auto;
+  padding:30px;
+  margin-top:20px;
+  background-color: bisque;
+ }
+ .options3{
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-content: center;
+  justify-content:space-evenly;
+  gap:1px;
+ }
+ .four{
+  border:solid 2px pink;
+  height: 60px;
+  max-width: 90%;
+  width: 300px;
+  margin: 10px auto;
+  padding:30px;
+  margin-top:20px;
+  background-color: bisque;
+ }
+ .options4{
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-content: center;
+  justify-content:space-evenly;
+  gap:1px;
+ }
+ .fifth{
+  border:solid 2px pink;
+  height: 60px;
+  max-width: 90%;
+  width: 300px;
+  margin: 10px auto;
+  padding:30px;
+  margin-top:20px;
+  background-color: bisque;
+ }
+ .options5{
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-content: center;
+  justify-content:space-evenly;
+  gap:2 px;
+ }
+#point{
+    margin:20px;
+    height:40px;
+    width:40px;
+}
